@@ -37,16 +37,14 @@ function siteBar(props) {
     { link: "Group", path: "/admin/group" },
   ];
 
-  // ===== SIDEBAR =====
   const drawer = (
     <Box
       sx={{
         height: "100%",
-        backgroundColor: "#0f172a", // qora fon
+        backgroundColor: "#0f172a",
         color: "#fff",
       }}
     >
-      {/* LOGO */}
       <Toolbar
         sx={{
           justifyContent: "center",
@@ -108,7 +106,6 @@ function siteBar(props) {
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
 
-      {/* ===== TOP BAR ===== */}
       <AppBar
         position="fixed"
         sx={{
@@ -132,12 +129,10 @@ function siteBar(props) {
         </Toolbar>
       </AppBar>
 
-      {/* ===== DRAWERS ===== */}
       <Box
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
       >
-        {/* MOBILE */}
         <Drawer
           container={container}
           variant="temporary"
@@ -155,10 +150,9 @@ function siteBar(props) {
           {drawer}
         </Drawer>
 
-        {/* DESKTOP */}
         <Drawer
           variant="persistent"
-          open={true} // desktop har doim ochiq
+          open={true}
           sx={{
             display: { xs: "none", sm: "block" },
             "& .MuiDrawer-paper": {
@@ -171,7 +165,6 @@ function siteBar(props) {
         </Drawer>
       </Box>
 
-      {/* ===== MAIN CONTENT ===== */}
       <Box
         component="main"
         sx={{
@@ -183,7 +176,7 @@ function siteBar(props) {
         }}
       >
         <Toolbar />
-        <Outlet /> {/* barcha sahifalar shu yerga keladi */}
+        <Outlet />
       </Box>
     </Box>
   );
