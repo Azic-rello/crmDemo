@@ -1,8 +1,13 @@
-import React from 'react'
+
+import Group from '../../pages/Group'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <div>Login 
+      <Group/>
+
+    </div>
+
   )
 }
 
