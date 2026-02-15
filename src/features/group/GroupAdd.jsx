@@ -37,7 +37,7 @@ export default function GroupAdd({ onAdded }) {
         placeholder="Group Name"
         value={name}
         onChange={e => setName(e.target.value)}
-        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition"
+        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition text-black"
       />
 
       <input
@@ -45,7 +45,7 @@ export default function GroupAdd({ onAdded }) {
         placeholder="Teacher"
         value={teacher}
         onChange={e => setTeacher(e.target.value)}
-        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition"
+        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition text-black"
       />
 
       <input
@@ -53,7 +53,7 @@ export default function GroupAdd({ onAdded }) {
         placeholder="Students (comma separated)"
         value={students}
         onChange={e => setStudents(e.target.value)}
-        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition"
+        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition text-black"
       />
 
       <input
@@ -61,7 +61,7 @@ export default function GroupAdd({ onAdded }) {
         placeholder="Time"
         value={time}
         onChange={e => setTime(e.target.value)}
-        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition"
+        className="w-full border border-gray-300 rounded-2xl p-5 text-xl focus:outline-none focus:ring-4 focus:ring-blue-400 transition text-black"
       />
 
       <button

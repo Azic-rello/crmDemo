@@ -26,9 +26,7 @@ export default function Group() {
 
   return (
     <div className="p-12 min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-red-200">
-      <h1 className="text-6xl font-extrabold mb-12 text-center 
-                     bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 
-                     bg-clip-text text-transparent">
+      <h1 className="text-6xl font-extrabold mb-12 text-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500  bg-clip-text text-transparent">
         Groups
       </h1>
 
@@ -46,9 +44,7 @@ export default function Group() {
                        transition-all duration-500"
           >
             <div className="p-12 bg-white rounded-[40px]">
-              <h2 className="text-4xl font-extrabold mb-6 
-                             text-transparent bg-clip-text 
-                             bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
+              <h2 className="text-4xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
                 {group.name || "No Name"}
               </h2>
 
