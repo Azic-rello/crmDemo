@@ -3,7 +3,7 @@ import React from 'react'
 const GroupEdit = () => {
   return (
     <div>
-      fdliashk
+      fdlias
     </div>
   )
 }
