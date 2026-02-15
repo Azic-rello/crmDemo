@@ -2,7 +2,9 @@ import React from 'react'
 
 const GroupEdit = () => {
   return (
-    <div>GroupEdit</div>
+    <div>
+      fdliashklf
+    </div>
   )
 }
 
