@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const Group = () => {
-  return (
-    <div>Group</div>
-  )
-}
-
-export default Group
-=======
 import { useEffect, useState } from "react";
 import axios from "axios";
 import GroupAdd from "../features/group/GroupAdd";
@@ -87,4 +77,4 @@ export default function Group() {
     </div>
   );
 }
->>>>>>> dd0b6e7 (Added Group feature)
+

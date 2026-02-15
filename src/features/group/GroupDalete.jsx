@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const GroupDalete = () => {
-  return (
-    <div>GroupDalete</div>
-  )
-}
 
-export default GroupDalete
-=======
 export default function GroupDelete({ onDelete }) {
   return (
     <button
@@ -21,4 +12,3 @@ export default function GroupDelete({ onDelete }) {
     </button>
   );
 }
->>>>>>> dd0b6e7 (Added Group feature)
