@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/admin/manager" element={<Manager />} />
       </Route>
     </Routes>
-    // fhklajhsdlkfjaghksl
+    // fhklajhsdlkfjaghks
   );
 };
 
