@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const GroupEdit = () => {
-  return (
-    <div>GroupEdit</div>
-  )
-}
-
-export default GroupEdit
-=======
 import { useState } from "react";
 import axios from "axios";
 import { Dialog, DialogActions, DialogContent, DialogTitle } from "@mui/material";
@@ -109,4 +99,4 @@ export default function GroupEdit({ group, onUpdated }) {
   );
 }
   
->>>>>>> dd0b6e7 (Added Group feature)
+

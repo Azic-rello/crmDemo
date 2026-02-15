@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const GroupAdd = () => {
-  return (
-    <div>GroupAdd</div>
-  )
-}
-
-export default GroupAdd
-=======
 import { useState } from "react";
 import axios from "axios";
 
@@ -78,9 +68,9 @@ export default function GroupAdd({ onAdded }) {
         onClick={handleSubmit}
         className="w-full bg-blue-500 text-white font-extrabold py-5 text-xl rounded-2xl hover:bg-blue-600 transition"
       >
-        Add Group
+        Add Groups
       </button>
     </div>
   );
 }
->>>>>>> dd0b6e7 (Added Group feature)
+
