@@ -38,13 +38,13 @@ export default function Group() {
         {groups.map(group => (
           <div
             key={group.id || group._id}
-            className="bg-gradient-to-br from-purple-400 via-pink-400 to-red-400 
+            className="
                        rounded-[40px] shadow-2xl 
                        transform hover:-translate-y-3 hover:scale-105 
                        transition-all duration-500"
           >
             <div className="p-12 bg-white rounded-[40px]">
-              <h2 className="text-4xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-red-500">
+              <h2 className="text-4xl font-extrabold mb-6 text-transparent bg-clip-text">
                 {group.name || "No Name"}
               </h2>
 

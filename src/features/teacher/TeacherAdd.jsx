@@ -41,28 +41,28 @@ const TeacherAdd = ({ refresh }) => {
         placeholder="Ism"
         value={form.firstName}
         onChange={handleChange}
-        className="flex-1 min-w-[180px] px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
+        className="flex-1 min-w-45 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
       />
       <input
         name="lastName"
         placeholder="Familiya"
         value={form.lastName}
         onChange={handleChange}
-        className="flex-1 min-w-[180px] px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
+        className="flex-1 min-w-45 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
       />
       <input
         name="phone"
         placeholder="Telefon"
         value={form.phone}
         onChange={handleChange}
-        className="flex-1 min-w-[180px] px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
+        className="flex-1 min-w-45 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
       />
       <input
         name="subject"
         placeholder="Fan"
         value={form.subject}
         onChange={handleChange}
-        className="flex-1 min-w-[180px] px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
+        className="flex-1 min-w-45 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-black"
       />
 
       <button
