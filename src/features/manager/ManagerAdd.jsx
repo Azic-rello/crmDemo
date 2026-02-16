@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const ManagerAdd = () => {
-  return (
-    <div>ManagerAdd</div>
-  )
-}
+  return <div>ManagerAdd</div>;
+};
 
-export default ManagerAdd
+export default ManagerAdd;
