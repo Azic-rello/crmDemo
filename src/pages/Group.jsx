@@ -25,8 +25,8 @@ export default function Group() {
   };
 
   return (
-    <div className="p-12 min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-red-200">
-      <h1 className="text-6xl font-extrabold mb-12 text-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500  bg-clip-text text-transparent">
+    <div className="p-12 min-h-screen ">
+      <h1 className="text-6xl font-extrabold mb-12 text-center text-white">
         Groups
       </h1>
 

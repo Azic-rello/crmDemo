@@ -1,3 +1,18 @@
 {
-  "teachers": []
+  "teachers": [
+    {
+      "id": "eb57",
+      "firstName": "dfas",
+      "lastName": "rello",
+      "phone": "99 627 40 76",
+      "subject": "fas"
+    },
+    {
+      "id": "8df9",
+      "firstName": "dsgfg",
+      "lastName": "dfgsdfg",
+      "phone": "gsdfgsdfg",
+      "subject": "sdfgsdfgsdf"
+    }
+  ]
 }
