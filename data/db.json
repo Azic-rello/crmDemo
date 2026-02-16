@@ -1,7 +1,11 @@
 {
   "groups": [
     {
+<<<<<<< HEAD
       "id": "1",
+=======
+      "id": 1,
+>>>>>>> 5768a50d4c42166ec23b4250beb4fe5a20b280d7
       "name": "React.jsx",
       "teacher": "Hasan",
       "time": "14:00 16: 00",
