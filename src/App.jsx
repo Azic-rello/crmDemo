@@ -10,6 +10,7 @@ import {
   Teacher,
 } from "./index";
 
+// fd
 const App = () => {
   return (
     <Routes>
