@@ -1,9 +1,19 @@
-import React from 'react'
+import { API } from "../../service/Api";
 
-const ManagerDalete = () => {
+export default function ManagerDelete({ id, onDeleted }) {
+  const handleDelete = async () => {
+    if (window.confirm("O‘chirishni xohlaysizmi?")) {
+      await API.delete(`/managers/${id}`);
+      onDeleted();
+    }
+  };
+
   return (
-    <div>ManagerDalete</div>
-  )
+    <button
+      onClick={handleDelete}
+      className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded-lg text-sm"
+    >
+       O‘chirish
+    </button>
+  );
 }
-
-export default ManagerDalete

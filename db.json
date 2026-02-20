@@ -81,5 +81,19 @@
       "name": "Xona 101",
       "capacity": 25
     }
+  ],
+  "managers": [
+    {
+      "id": "16b1",
+      "name": "kl",
+      "email": "hkh",
+      "phone": "kjh"
+    },
+    {
+      "id": "ea13",
+      "name": "",
+      "email": "",
+      "phone": ""
+    }
   ]
 }

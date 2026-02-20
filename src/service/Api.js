@@ -9,3 +9,7 @@ export const addTeacher = (data) => axios.post(API_URL, data);
 export const deleteTeacher = (id) => axios.delete(`${API_URL}/${id}`);
 
 export const updateTeacher = (id, data) => axios.put(`${API_URL}/${id}`, data);
+
+export const API = axios.create({
+  baseURL: "http://localhost:5000",
+});
