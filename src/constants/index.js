@@ -1,0 +1,60 @@
+
+
+export const data = {
+
+    groups: [
+        { id: 101, name: "Frontend-24", major: "Web Dasturlash" },
+        { id: 102, name: "Backend-18", major: "Backend Dasturlash" },
+        { id: 103, name: "Foundation-05", major: "Kompyuter Savodxonligi" },
+
+    ],
+
+
+    teachers: [
+        { id: 201, name: "Sardor", surname: "Muminov", subject: "React JS" },
+        { id: 202, name: "Maftuna", surname: "Aliyeva", subject: "English" },
+        { id: 203, name: "Botir", surname: "Zokirov", subject: "Python" },
+    ],
+
+
+    rooms: [
+        { id: 301, name: "Xona 204", capacity: 20 },
+        { id: 302, name: "Xona 305", capacity: 15 },
+        { id: 303, name: "Xona 101", capacity: 25 },
+
+    ],
+
+
+    students: [
+        {
+            id: 1,
+            name: "Jasurbek",
+            surname: "Ergashev",
+            phone: "+99897 663 9808",
+            image: "https://ui-avatars.com/api/?name=Jasur+Aka&background=3b82f6&color=fff",
+            groupId: 101,
+            teacherId: 201,
+            roomId: 301,
+        },
+        {
+            id: 2,
+            name: "Olimjon",
+            surname: "Tursunov",
+            phone: "+99890 123 4567",
+            image: "https://ui-avatars.com/api/?name=Olim+Tursunov&background=10b981&color=fff",
+            groupId: 102,
+            teacherId: 203,
+            roomId: 302,
+        },
+        {
+            id: 3,
+            name: "Dildora",
+            surname: "Karimova",
+            phone: "+99893 777 8899",
+            image: "https://ui-avatars.com/api/?name=Dildora+K&background=ec4899&color=fff",
+            groupId: 101,
+            teacherId: 201,
+            roomId: 301,
+        }
+    ]
+};
